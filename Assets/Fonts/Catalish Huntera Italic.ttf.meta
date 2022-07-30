@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: dbd2713ba54507940973e076c27f574b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Catalish Huntera
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a3f9ea9a2f31cde4ab496623a83a0827, type: 3}
+  - {fileID: 12800000, guid: 69ce264f01b0693488da82e01d41de86, type: 3}
+  - {fileID: 12800000, guid: c1599b3afd8748f40826b617570c1be2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
