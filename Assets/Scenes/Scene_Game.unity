@@ -17577,7 +17577,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.111570865, y: -0.000000017625194, z: 0.0000000019788131, w: 0.9937565}
+  m_LocalRotation: {x: 0.111570865, y: 0.000000017625199, z: -0.0000000019788138, w: 0.9937565}
   m_LocalPosition: {x: 5.5, y: 18.8, z: -51.309998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -19884,7 +19884,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103944598}
-  m_LocalRotation: {x: 0.111570865, y: -0.000000017625194, z: 0.0000000019788131, w: 0.9937565}
+  m_LocalRotation: {x: 0.111570865, y: 0.000000017625199, z: -0.0000000019788138, w: 0.9937565}
   m_LocalPosition: {x: 5.5, y: 18.8, z: -51.309998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -25816,7 +25816,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4996138570027138, guid: 18c5fed9cca812a458ccf567688e3a1f, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4996138570027138, guid: 18c5fed9cca812a458ccf567688e3a1f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25951,6 +25951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1465822564}
+  - component: {fileID: 1465822565}
   m_Layer: 0
   m_Name: ScoreDisplay
   m_TagString: Untagged
@@ -25974,6 +25975,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1465822565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465822563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8455f6646359b7140bde75419d969a97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1808452070}
+  scoreMultiplier: 5
 --- !u!1001 &1469634347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32320,7 +32335,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 250
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a62eb2f90ae58164ba4f186cf997d429, type: 2}
   m_sharedMaterial: {fileID: -1169028223269984712, guid: a62eb2f90ae58164ba4f186cf997d429, type: 2}
